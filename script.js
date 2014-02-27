@@ -20,7 +20,7 @@ $(document).ready(function() {
 $(document).ready(function() {
     var mute = false;
     $("#volume-off").on("click", function(){
-        if(audio-muted == false){
+        if (mute == false){
             document.getElementById('audio-player').muted = true;
             mute = true;
         } else{
